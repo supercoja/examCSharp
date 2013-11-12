@@ -1,0 +1,5 @@
+W:\d_antigo\c#\ExamRef_c#\ThreadApp_1_03\ThreadApp_1_03\bin\Debug\ThreadApp_1_03.exe.config
+W:\d_antigo\c#\ExamRef_c#\ThreadApp_1_03\ThreadApp_1_03\bin\Debug\ThreadApp_1_03.exe
+W:\d_antigo\c#\ExamRef_c#\ThreadApp_1_03\ThreadApp_1_03\bin\Debug\ThreadApp_1_03.pdb
+W:\d_antigo\c#\ExamRef_c#\ThreadApp_1_03\ThreadApp_1_03\obj\Debug\ThreadApp_1_03.exe
+W:\d_antigo\c#\ExamRef_c#\ThreadApp_1_03\ThreadApp_1_03\obj\Debug\ThreadApp_1_03.pdb
