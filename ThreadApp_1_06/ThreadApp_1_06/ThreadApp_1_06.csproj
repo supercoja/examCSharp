@@ -1,15 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+=======
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+>>>>>>> fd3621f7be28dab405397d91ab0b4241ce18ba0e
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+<<<<<<< HEAD
     <ProjectGuid>{5C86F5E2-7010-494F-83B6-E55EBBCE904B}</ProjectGuid>
+=======
+    <ProjectGuid>{519C5F0B-26F1-441A-B1E3-8CC2CABC0F5D}</ProjectGuid>
+>>>>>>> fd3621f7be28dab405397d91ab0b4241ce18ba0e
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ThreadApp_1_06</RootNamespace>
     <AssemblyName>ThreadApp_1_06</AssemblyName>
+<<<<<<< HEAD
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+=======
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+>>>>>>> fd3621f7be28dab405397d91ab0b4241ce18ba0e
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -44,9 +56,12 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+=======
+>>>>>>> fd3621f7be28dab405397d91ab0b4241ce18ba0e
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

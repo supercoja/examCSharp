@@ -8,9 +8,15 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("ThreadApp_1_06")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
+<<<<<<< HEAD
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("ThreadApp_1_06")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
+=======
+[assembly: AssemblyCompany("Microsoft")]
+[assembly: AssemblyProduct("ThreadApp_1_06")]
+[assembly: AssemblyCopyright("Copyright © Microsoft 2013")]
+>>>>>>> fd3621f7be28dab405397d91ab0b4241ce18ba0e
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +26,11 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
+<<<<<<< HEAD
 [assembly: Guid("8901985d-c932-4d23-87fc-3a1a50aa0111")]
+=======
+[assembly: Guid("640aeda6-1f55-4713-9fda-eaf5d089121f")]
+>>>>>>> fd3621f7be28dab405397d91ab0b4241ce18ba0e
 
 // Version information for an assembly consists of the following four values:
 //
