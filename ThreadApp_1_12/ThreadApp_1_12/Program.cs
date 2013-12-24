@@ -29,7 +29,7 @@ namespace ThreadApp_1_12
                         Console.WriteLine(i);
                 });
             _finalTask.Wait();
-            Console.ReadKey();
+            Console.ReadKey();              
         }
     }
 }
