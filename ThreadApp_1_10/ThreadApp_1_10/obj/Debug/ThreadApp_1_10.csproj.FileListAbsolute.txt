@@ -1,0 +1,5 @@
+C:\vs\ThreadApp_1_10\ThreadApp_1_10\bin\Debug\ThreadApp_1_10.exe.config
+C:\vs\ThreadApp_1_10\ThreadApp_1_10\bin\Debug\ThreadApp_1_10.exe
+C:\vs\ThreadApp_1_10\ThreadApp_1_10\bin\Debug\ThreadApp_1_10.pdb
+C:\vs\ThreadApp_1_10\ThreadApp_1_10\obj\Debug\ThreadApp_1_10.exe
+C:\vs\ThreadApp_1_10\ThreadApp_1_10\obj\Debug\ThreadApp_1_10.pdb
