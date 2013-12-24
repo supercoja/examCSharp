@@ -3,3 +3,6 @@ C:\vs\ThreadApp_1_11\ThreadApp_1_11\bin\Debug\ThreadApp_1_11.exe
 C:\vs\ThreadApp_1_11\ThreadApp_1_11\bin\Debug\ThreadApp_1_11.pdb
 C:\vs\ThreadApp_1_11\ThreadApp_1_11\obj\Debug\ThreadApp_1_11.exe
 C:\vs\ThreadApp_1_11\ThreadApp_1_11\obj\Debug\ThreadApp_1_11.pdb
+\\psf\Home\Documents\c#\70-483\ThreadApp_1_11\ThreadApp_1_11\bin\Debug\ThreadApp_1_11.exe.config
+\\psf\Home\Documents\c#\70-483\ThreadApp_1_11\ThreadApp_1_11\obj\Debug\ThreadApp_1_11.exe
+\\psf\Home\Documents\c#\70-483\ThreadApp_1_11\ThreadApp_1_11\obj\Debug\ThreadApp_1_11.pdb
