@@ -17,9 +17,11 @@ namespace Parallel_1_16
                     if (i == 500)
                     {
                         Console.WriteLine("Breaking Loop");
-                        _loopState.Break();
+//                        _loopState.Break(); //waits until the open iterations finish
+                        _loopState.Stop(); //terminates everything
+
                     }
-//                    Console.ReadKey();
+                    Console.ReadKey();
                 });
         }
     }
