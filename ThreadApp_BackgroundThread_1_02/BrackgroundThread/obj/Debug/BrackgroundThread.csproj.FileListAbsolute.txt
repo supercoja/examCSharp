@@ -1,5 +1,0 @@
-W:\d_antigo\c#\ExamRef_c#\BrackgroundThread\BrackgroundThread\bin\Debug\BrackgroundThread.exe.config
-W:\d_antigo\c#\ExamRef_c#\BrackgroundThread\BrackgroundThread\bin\Debug\BrackgroundThread.exe
-W:\d_antigo\c#\ExamRef_c#\BrackgroundThread\BrackgroundThread\bin\Debug\BrackgroundThread.pdb
-W:\d_antigo\c#\ExamRef_c#\BrackgroundThread\BrackgroundThread\obj\Debug\BrackgroundThread.exe
-W:\d_antigo\c#\ExamRef_c#\BrackgroundThread\BrackgroundThread\obj\Debug\BrackgroundThread.pdb

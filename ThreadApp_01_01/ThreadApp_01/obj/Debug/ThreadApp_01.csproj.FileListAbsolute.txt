@@ -1,6 +1,0 @@
-W:\d_antigo\c#\ExamRef_c#\ThreadApp_01\ThreadApp_01\bin\Debug\ThreadApp_01.exe.config
-W:\d_antigo\c#\ExamRef_c#\ThreadApp_01\ThreadApp_01\bin\Debug\ThreadApp_01.exe
-W:\d_antigo\c#\ExamRef_c#\ThreadApp_01\ThreadApp_01\bin\Debug\ThreadApp_01.pdb
-W:\d_antigo\c#\ExamRef_c#\ThreadApp_01\ThreadApp_01\obj\Debug\ThreadApp_01.csprojResolveAssemblyReference.cache
-W:\d_antigo\c#\ExamRef_c#\ThreadApp_01\ThreadApp_01\obj\Debug\ThreadApp_01.exe
-W:\d_antigo\c#\ExamRef_c#\ThreadApp_01\ThreadApp_01\obj\Debug\ThreadApp_01.pdb

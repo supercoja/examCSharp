@@ -1,5 +1,0 @@
-W:\d_antigo\c#\ExamRef_c#\ThreadApp_1_04\ThreadApp_1_04\bin\Debug\ThreadApp_1_04.exe.config
-W:\d_antigo\c#\ExamRef_c#\ThreadApp_1_04\ThreadApp_1_04\bin\Debug\ThreadApp_1_04.exe
-W:\d_antigo\c#\ExamRef_c#\ThreadApp_1_04\ThreadApp_1_04\bin\Debug\ThreadApp_1_04.pdb
-W:\d_antigo\c#\ExamRef_c#\ThreadApp_1_04\ThreadApp_1_04\obj\Debug\ThreadApp_1_04.exe
-W:\d_antigo\c#\ExamRef_c#\ThreadApp_1_04\ThreadApp_1_04\obj\Debug\ThreadApp_1_04.pdb

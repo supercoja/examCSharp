@@ -1,6 +1,0 @@
-C:\vs\ThreadApp_1_08\ThreadApp_1_08\bin\Debug\ThreadApp_1_08.exe.config
-C:\vs\ThreadApp_1_08\ThreadApp_1_08\bin\Debug\ThreadApp_1_08.exe
-C:\vs\ThreadApp_1_08\ThreadApp_1_08\bin\Debug\ThreadApp_1_08.pdb
-C:\vs\ThreadApp_1_08\ThreadApp_1_08\obj\Debug\ThreadApp_1_08.csprojResolveAssemblyReference.cache
-C:\vs\ThreadApp_1_08\ThreadApp_1_08\obj\Debug\ThreadApp_1_08.exe
-C:\vs\ThreadApp_1_08\ThreadApp_1_08\obj\Debug\ThreadApp_1_08.pdb

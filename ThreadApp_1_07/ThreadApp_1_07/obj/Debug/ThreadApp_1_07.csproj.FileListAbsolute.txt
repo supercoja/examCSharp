@@ -1,9 +1,0 @@
-C:\vs\ThreadApp_1_07\ThreadApp_1_07\bin\Debug\ThreadApp_1_07.exe.config
-C:\vs\ThreadApp_1_07\ThreadApp_1_07\bin\Debug\ThreadApp_1_07.exe
-C:\vs\ThreadApp_1_07\ThreadApp_1_07\bin\Debug\ThreadApp_1_07.pdb
-C:\vs\ThreadApp_1_07\ThreadApp_1_07\obj\Debug\ThreadApp_1_07.csprojResolveAssemblyReference.cache
-C:\vs\ThreadApp_1_07\ThreadApp_1_07\obj\Debug\ThreadApp_1_07.exe
-C:\vs\ThreadApp_1_07\ThreadApp_1_07\obj\Debug\ThreadApp_1_07.pdb
-\\psf\Dropbox\c#\70-483\ThreadApp_1_07\ThreadApp_1_07\bin\Debug\ThreadApp_1_07.exe.config
-\\psf\Dropbox\c#\70-483\ThreadApp_1_07\ThreadApp_1_07\obj\Debug\ThreadApp_1_07.exe
-\\psf\Dropbox\c#\70-483\ThreadApp_1_07\ThreadApp_1_07\obj\Debug\ThreadApp_1_07.pdb

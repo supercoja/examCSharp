@@ -1,5 +1,0 @@
-W:\d_antigo\c#\ExamRef_c#\ThreadStaticField_1_05\ThreadStaticField_1_05\bin\Debug\ThreadStaticField_1_05.exe.config
-W:\d_antigo\c#\ExamRef_c#\ThreadStaticField_1_05\ThreadStaticField_1_05\bin\Debug\ThreadStaticField_1_05.exe
-W:\d_antigo\c#\ExamRef_c#\ThreadStaticField_1_05\ThreadStaticField_1_05\bin\Debug\ThreadStaticField_1_05.pdb
-W:\d_antigo\c#\ExamRef_c#\ThreadStaticField_1_05\ThreadStaticField_1_05\obj\Debug\ThreadStaticField_1_05.exe
-W:\d_antigo\c#\ExamRef_c#\ThreadStaticField_1_05\ThreadStaticField_1_05\obj\Debug\ThreadStaticField_1_05.pdb
