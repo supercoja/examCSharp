@@ -79,6 +79,15 @@
     <Compile Include="src\Objective_1\1.1-MultiThreading_and_Asynchronous_Processing\Example_1_19.cs" />
     <Compile Include="src\Objective_1\1.1-MultiThreading_and_Asynchronous_Processing\Example_1_20.cs" />
     <Compile Include="src\Objective_1\1.1-MultiThreading_and_Asynchronous_Processing\Example_1_21.cs" />
+    <Compile Include="src\Objective_1\1.1-MultiThreading_and_Asynchronous_Processing\Example_1_22.cs" />
+    <Compile Include="src\Objective_1\1.1-MultiThreading_and_Asynchronous_Processing\Example_1_23.cs" />
+    <Compile Include="src\Objective_1\1.1-MultiThreading_and_Asynchronous_Processing\Example_1_24.cs" />
+    <Compile Include="src\Objective_1\1.1-MultiThreading_and_Asynchronous_Processing\Example_1_25.cs" />
+    <Compile Include="src\Objective_1\1.1-MultiThreading_and_Asynchronous_Processing\Example_1_26.cs" />
+    <Compile Include="src\Objective_1\1.1-MultiThreading_and_Asynchronous_Processing\Example_1_27.cs" />
+    <Compile Include="src\Objective_1\1.1-MultiThreading_and_Asynchronous_Processing\Example_1_28.cs" />
+    <Compile Include="src\Objective_1\1.1-MultiThreading_and_Asynchronous_Processing\Example_1_29.cs" />
+    <Compile Include="src\Objective_1\1.1-MultiThreading_and_Asynchronous_Processing\Example_1_30.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

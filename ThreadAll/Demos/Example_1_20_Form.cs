@@ -16,8 +16,9 @@ namespace Demos
             HttpClient httpClient = new HttpClient();
             string _contentSite = await httpClient
                 .GetStringAsync("http://www.microsoft.com")
-                .ConfigureAwait(false);
-            txtOutput.Text = _contentSite;
+                .ConfigureAwait(false); // configurado como true, ele espera ate o final da Thread para devolver o resultado a interface, se for false, ocorre uma excecao
+            txtOutput
+             .Text = _contentSite;
         }
     }
 }

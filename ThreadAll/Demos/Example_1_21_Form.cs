@@ -26,6 +26,8 @@ namespace Demos
                 byte[] _encodedText = Encoding.Unicode.GetBytes(_contentSite);
                 await _sourceStream.WriteAsync(_encodedText, 0, _encodedText.Length).ConfigureAwait(false);
             };
+            txtOutput.Text = "Conteudo Carregado com Sucesso";
+
         }
     }
 }
