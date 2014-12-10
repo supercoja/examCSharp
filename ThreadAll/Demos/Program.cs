@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Concurrent;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Demos
@@ -8,19 +9,22 @@ namespace Demos
     {
         public static void Main(string[] args)
         {
-            var bagOfBaggins = new ConcurrentBag<int>();
+            ConcurrentStack<int> stack = new ConcurrentStack<int>();
+            stack.Push(42);
 
-            bagOfBaggins.Add(42);
-            bagOfBaggins.Add(21);
             int result;
-            if (bagOfBaggins.TryTake(out result))
-                Console.WriteLine(result);
+            if (stack.TryPop(out result))
+                Console.WriteLine("Popped: {0} ", result);
 
-            if (bagOfBaggins.TryPeek(out result))
-                Console.WriteLine("There is A Next Item {0}",result);
+            stack.PushRange(new int[] { 1, 2, 3 });
+
+            int[] values = new int[2];
+            stack.TryPopRange(values);
+
+            foreach (int i in values)
+                Console.WriteLine(i);
 
             Console.ReadKey();
-
         }
     }
 }
