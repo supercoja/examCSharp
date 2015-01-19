@@ -15,11 +15,24 @@ namespace Fundamentals
 
         public void AddGrade(float grade)
         {
-            _grades.Add(grade);
+            if (grade >= 0 && grade <= 100)
+            {
+                _grades.Add(grade);
+            }
         }
         public GradeStatistics ComputeStatistics()
         {
-            return new GradeStatistics();
+            var calculatedStatistics = new GradeStatistics();
+            float sumOfGrades = 0;
+            foreach (float grade in _grades)
+            {
+               calculatedStatistics.HighestGrade = Math.Max(grade, calculatedStatistics.HighestGrade);
+               calculatedStatistics.LowestGrade =  Math.Min(grade, calculatedStatistics.LowestGrade);
+                sumOfGrades += grade;
+            }
+
+            calculatedStatistics.AverageGrade = (sumOfGrades / _grades.Count());
+            return calculatedStatistics;
         }
 
         List<float> _grades;

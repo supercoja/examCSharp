@@ -13,16 +13,12 @@ namespace Fundamentals
             var gradeBook = new GradeBook();
             gradeBook.AddGrade(91f);
             gradeBook.AddGrade(89.1f);
-
+            gradeBook.AddGrade(75f);
             GradeStatistics statistics = gradeBook.ComputeStatistics();
 
-
-            var gradeBook2 = new GradeBook();
-            gradeBook2.AddGrade(75f);
-            gradeBook2.AddGrade(55.5f);
-
-
-            
+            Console.WriteLine("Average Grade {0}", statistics.AverageGrade);
+            Console.WriteLine("Highest Grade {0}", statistics.HighestGrade);
+            Console.WriteLine("Lowest Grade {0}", statistics.LowestGrade);
         }
     }
 }
