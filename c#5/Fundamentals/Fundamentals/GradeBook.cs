@@ -1,16 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Fundamentals
 {
     class GradeBook
     {
-        public GradeBook()
+        public GradeBook(string name)
         {
             _grades = new List<float>();
+            if (!String.IsNullOrEmpty(name))
+            {
+                _name = name;
+            }
         }
 
         public void AddGrade(float grade)
@@ -37,7 +39,24 @@ namespace Fundamentals
 
         List<float> _grades;
 
+        private string _name;
+        public string Name 
+        {
+            get { return _name; }
+            set
+            {
+                if (_name != value)
+                {
+                    var _oldNameValue = _name;
+                    _name = value;
+                    if (NamedChanged != null)
+                    {
+                        NamedChanged(_oldNameValue, value);
+                    }
+                }
+            } 
+        }
 
-
+        public NamedChangedDelegate NamedChanged;
     }
 }
