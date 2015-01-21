@@ -15,7 +15,7 @@ namespace Fundamentals
             gradeBook.NamedChanged += OnNameChanged;
             gradeBook.NamedChanged += OnNameChanged;
             gradeBook.NamedChanged += OnNameChanged2;
-//            gradeBook.NamedChanged = new NamedChangedDelegate(OnNameChanged2);
+            gradeBook.NamedChanged -= OnNameChanged;
             gradeBook.Name = "André's Book";
 
             Console.WriteLine(gradeBook.Name);
@@ -26,14 +26,16 @@ namespace Fundamentals
 
         }
 
-        private static void OnNameChanged2(string oldValueName, string newValueName)
+        private static void OnNameChanged2(object sender, NamedChangedEventArgs args)
         {
-            Console.WriteLine("***"); ;
+            Console.WriteLine("***");
         }
 
-        private static void OnNameChanged(string oldValueName, string newValueName)
+        private static void OnNameChanged(object sender, NamedChangedEventArgs args)
         {
-            Console.WriteLine("Named changed from {0} to {1}", oldValueName, newValueName);
+            Console.WriteLine("Book's Named Changed From {0} to {1}", args.oldValueName, args.newValueName);
         }
+
+
     }
 }

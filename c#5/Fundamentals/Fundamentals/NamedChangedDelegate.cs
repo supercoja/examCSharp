@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace Fundamentals
 {
-    public delegate void NamedChangedDelegate(string oldValueName,string newValueName);
+    public delegate void NamedChangedDelegate(object sender, NamedChangedEventArgs args);
 }

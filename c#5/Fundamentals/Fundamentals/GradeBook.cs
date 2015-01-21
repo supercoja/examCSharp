@@ -51,7 +51,10 @@ namespace Fundamentals
                     _name = value;
                     if (NamedChanged != null)
                     {
-                        NamedChanged(_oldNameValue, value);
+                        var _eventArgsNameChanged = new NamedChangedEventArgs();
+                        _eventArgsNameChanged.oldValueName = _oldNameValue;
+                        _eventArgsNameChanged.newValueName = value;
+                        NamedChanged(this,_eventArgsNameChanged);
                     }
                 }
             } 
