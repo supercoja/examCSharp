@@ -12,17 +12,21 @@ namespace Fundamentals
             gradeBook.AddGrade(75f);
             GradeStatistics statistics = gradeBook.ComputeStatistics();
 
-            gradeBook.NamedChanged += OnNameChanged;
+    /*        gradeBook.NamedChanged += OnNameChanged;
             gradeBook.NamedChanged += OnNameChanged;
             gradeBook.NamedChanged += OnNameChanged2;
             gradeBook.NamedChanged -= OnNameChanged;
+*/
             gradeBook.Name = "André's Book";
 
             Console.WriteLine(gradeBook.Name);
             Console.WriteLine("Average Grade {0}", statistics.AverageGrade);
             Console.WriteLine("Highest Grade {0}", statistics.HighestGrade);
             Console.WriteLine("Lowest Grade {0}", statistics.LowestGrade);
+            Console.WriteLine("Letter Grade {0}", statistics.LetterGrade);
 
+//            int age = 10;
+  //          string pass = age > 20 ? "pass" : "nopass";
 
         }
 
