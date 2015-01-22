@@ -24,10 +24,9 @@ namespace Fundamentals
             Console.WriteLine("Highest Grade {0}", statistics.HighestGrade);
             Console.WriteLine("Lowest Grade {0}", statistics.LowestGrade);
             Console.WriteLine("Letter Grade {0}", statistics.LetterGrade);
-
+            Console.WriteLine("{0} {1}", statistics.LetterGrade,statistics.Description);
 //            int age = 10;
   //          string pass = age > 20 ? "pass" : "nopass";
-
         }
 
         private static void OnNameChanged2(object sender, NamedChangedEventArgs args)
@@ -39,7 +38,5 @@ namespace Fundamentals
         {
             Console.WriteLine("Book's Named Changed From {0} to {1}", args.oldValueName, args.newValueName);
         }
-
-
     }
 }
