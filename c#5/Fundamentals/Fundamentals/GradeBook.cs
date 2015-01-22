@@ -60,6 +60,6 @@ namespace Fundamentals
             } 
         }
 
-        public NamedChangedDelegate NamedChanged;
+       public NamedChangedDelegate NamedChanged;
     }
 }
