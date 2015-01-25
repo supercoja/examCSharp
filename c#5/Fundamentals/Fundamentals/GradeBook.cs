@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 
 namespace Fundamentals
 {
-    public class GradeBook
+    public class GradeBook : GradeTracker
     {
         public GradeBook(string name = "There Is No Name")
         {
@@ -12,18 +13,18 @@ namespace Fundamentals
             _grades = new List<float>();
             if (!String.IsNullOrEmpty(name))
             {
-                _name = name;
+                Name = name;
             }
         }
 
-        public void AddGrade(float grade)
+        public override void AddGrade(float grade)
         {
             if (grade >= 0 && grade <= 100)
             {
                 _grades.Add(grade);
             }
         }
-        public virtual GradeStatistics ComputeStatistics()
+        public override GradeStatistics ComputeStatistics()
         {
             Console.WriteLine("GradeBook ComputeStatistics");
             var calculatedStatistics = new GradeStatistics();
@@ -39,29 +40,21 @@ namespace Fundamentals
             return calculatedStatistics;
         }
 
-        protected List<float> _grades;
-
-        private string _name;
-        public string Name 
+        public override void WriteGrades(TextWriter textWriter)
         {
-            get { return _name; }
-            set
+            textWriter.WriteLine("Grades: ");
+
+            int i = 0;
+            do 
             {
-                if (_name != value)
-                {
-                    var _oldNameValue = _name;
-                    _name = value;
-                    if (NamedChanged != null)
-                    {
-                        var _eventArgsNameChanged = new NamedChangedEventArgs();
-                        _eventArgsNameChanged.oldValueName = _oldNameValue;
-                        _eventArgsNameChanged.newValueName = value;
-                        NamedChanged(this,_eventArgsNameChanged);
-                    }
-                }
-            } 
+                textWriter.WriteLine(_grades[i]);
+                i++;
+            } while (i < _grades.Count);
+
+            textWriter.WriteLine(" End Of Writing Grades ***");
         }
 
-       public NamedChangedDelegate NamedChanged;
+        protected List<float> _grades;
+
     }
 }
