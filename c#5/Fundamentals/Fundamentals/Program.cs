@@ -6,7 +6,7 @@ namespace Fundamentals
     {
         static void Main(string[] args)
         {
-            var gradeBook = new GradeBook("Thiago's Book");
+            GradeBook gradeBook = CreateGradeBook();
             gradeBook.AddGrade(91f);
             gradeBook.AddGrade(89.1f);
             gradeBook.AddGrade(75f);
@@ -27,6 +27,12 @@ namespace Fundamentals
             Console.WriteLine("{0} {1}", statistics.LetterGrade,statistics.Description);
 //            int age = 10;
   //          string pass = age > 20 ? "pass" : "nopass";
+        }
+
+        private static GradeBook CreateGradeBook()
+        {
+            GradeBook gradeBook = new ThrowAwayGradeBook("Thiago's Book");
+            return gradeBook;
         }
 
         private static void OnNameChanged2(object sender, NamedChangedEventArgs args)

@@ -4,10 +4,11 @@ using System.Linq;
 
 namespace Fundamentals
 {
-    class GradeBook
+    public class GradeBook
     {
-        public GradeBook(string name)
+        public GradeBook(string name = "There Is No Name")
         {
+            Console.WriteLine("GradeBook CTOR");
             _grades = new List<float>();
             if (!String.IsNullOrEmpty(name))
             {
@@ -22,8 +23,9 @@ namespace Fundamentals
                 _grades.Add(grade);
             }
         }
-        public GradeStatistics ComputeStatistics()
+        public virtual GradeStatistics ComputeStatistics()
         {
+            Console.WriteLine("GradeBook ComputeStatistics");
             var calculatedStatistics = new GradeStatistics();
             float sumOfGrades = 0;
             foreach (float grade in _grades)
@@ -37,7 +39,7 @@ namespace Fundamentals
             return calculatedStatistics;
         }
 
-        List<float> _grades;
+        protected List<float> _grades;
 
         private string _name;
         public string Name 

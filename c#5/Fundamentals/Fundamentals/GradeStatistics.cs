@@ -1,7 +1,7 @@
 ﻿
 namespace Fundamentals
 {
-    class GradeStatistics
+    public class GradeStatistics
     {
         public GradeStatistics()
         {

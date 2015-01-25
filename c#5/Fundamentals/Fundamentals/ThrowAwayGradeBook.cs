@@ -11,11 +11,18 @@ namespace Fundamentals
         public ThrowAwayGradeBook(string name)
             :base(name)
         {
-            Console.WriteLine("GradeBook CTOR");
+            Console.WriteLine("ThrowAway CTOR");
         }
 
-        public GradeStatistics ComputeStatistics()
+        public override GradeStatistics ComputeStatistics()
         {
+            Console.WriteLine("ThroAway ComputeStatistics");
+            float lowestGrade = float.MaxValue;
+            foreach (float grade in _grades)
+            {
+                lowestGrade = Math.Min(lowestGrade, grade);
+            }
+            _grades.Remove(lowestGrade);
             return base.ComputeStatistics();
         }
     }
