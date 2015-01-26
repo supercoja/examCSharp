@@ -1,8 +1,9 @@
-﻿using System.IO;
+﻿using System.Collections;
+using System.IO;
 
 namespace Fundamentals
 {
-    public interface IGradeTracker
+    public interface IGradeTracker : IEnumerable
     {
             void AddGrade(float grade);
             GradeStatistics ComputeStatistics();
@@ -10,5 +11,7 @@ namespace Fundamentals
             string Name { get; set; }
             //     event NamedChangedDelegate NameChanged;
             void DoSomething();
+            IEnumerator GetEnumerator();
+
    }
 }

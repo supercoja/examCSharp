@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.Collections;
+using System.IO;
 
 namespace Fundamentals
 {
@@ -9,7 +10,11 @@ namespace Fundamentals
         public abstract GradeStatistics ComputeStatistics();
         public abstract void WriteGrades(TextWriter textWriter);
 
+        public abstract IEnumerator GetEnumerator();
+
         public abstract void DoSomething();
+
+
 
         private string _name;
         public string Name

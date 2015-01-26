@@ -11,8 +11,14 @@ namespace Fundamentals
             gradeBook.AddGrade(89.1f);
             gradeBook.AddGrade(75f);
 
-            gradeBook.DoSomething();
-            gradeBook.WriteGrades(Console.Out);
+            //gradeBook.DoSomething();
+            //gradeBook.WriteGrades(Console.Out);
+
+            foreach (float grade in gradeBook)
+            {
+                Console.WriteLine(grade);
+            }
+
             GradeStatistics statistics = gradeBook.ComputeStatistics();
 
     /*        gradeBook.NamedChanged += OnNameChanged;

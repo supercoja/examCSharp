@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -17,6 +18,10 @@ namespace Fundamentals
             }
         }
 
+        public override IEnumerator GetEnumerator()
+        {
+            return _grades.GetEnumerator();
+        }
         public override void AddGrade(float grade)
         {
             if (grade >= 0 && grade <= 100)
