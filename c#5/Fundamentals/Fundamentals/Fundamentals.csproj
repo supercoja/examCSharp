@@ -44,6 +44,7 @@
     <Compile Include="GradeBook.cs" />
     <Compile Include="GradeStatistics.cs" />
     <Compile Include="GradeTracker.cs" />
+    <Compile Include="IGradeTracker.cs" />
     <Compile Include="Logger.cs" />
     <Compile Include="NamedChangedDelegate.cs" />
     <Compile Include="NamedChangedEventArgs.cs" />

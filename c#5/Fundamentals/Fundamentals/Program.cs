@@ -6,11 +6,12 @@ namespace Fundamentals
     {
         static void Main(string[] args)
         {
-            GradeTracker gradeBook = CreateGradeBook();
+            IGradeTracker gradeBook = CreateGradeBook();
             gradeBook.AddGrade(91f);
             gradeBook.AddGrade(89.1f);
             gradeBook.AddGrade(75f);
 
+            gradeBook.DoSomething();
             gradeBook.WriteGrades(Console.Out);
             GradeStatistics statistics = gradeBook.ComputeStatistics();
 
@@ -31,9 +32,9 @@ namespace Fundamentals
   //          string pass = age > 20 ? "pass" : "nopass";
         }
 
-        private static GradeTracker CreateGradeBook()
+        private static IGradeTracker CreateGradeBook()
         {
-            GradeTracker gradeBook = new ThrowAwayGradeBook("Thiago's Book");
+            IGradeTracker gradeBook = new ThrowAwayGradeBook("Thiago's Book");
             return gradeBook;
         }
 

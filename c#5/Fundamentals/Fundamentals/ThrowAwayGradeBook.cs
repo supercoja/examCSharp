@@ -21,5 +21,7 @@ namespace Fundamentals
             _grades.Remove(lowestGrade);
             return base.ComputeStatistics();
         }
+
+
     }
 }

@@ -54,6 +54,11 @@ namespace Fundamentals
             textWriter.WriteLine(" End Of Writing Grades ***");
         }
 
+        public override void DoSomething()
+        {
+
+        }
+
         protected List<float> _grades;
 
     }

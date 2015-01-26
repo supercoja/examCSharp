@@ -2,11 +2,14 @@
 
 namespace Fundamentals
 {
-    public abstract class GradeTracker
+
+    public abstract class GradeTracker : IGradeTracker
     {
         public abstract void AddGrade(float grade);
         public abstract GradeStatistics ComputeStatistics();
         public abstract void WriteGrades(TextWriter textWriter);
+
+        public abstract void DoSomething();
 
         private string _name;
         public string Name
