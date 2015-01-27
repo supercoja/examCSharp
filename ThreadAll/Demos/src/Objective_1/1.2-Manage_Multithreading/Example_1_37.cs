@@ -1,4 +1,9 @@
-﻿using System;
+﻿namespace Demos.src.Objective_1._1._2_Manage_Multithreading
+{
+    class Example_1_37
+    {
+        /* 1 - 37 Creating a Deadlock
+using System;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -31,5 +36,9 @@ namespace Demos
             }
             up.Wait();
         }
+    }
+}
+          
+         */
     }
 }
