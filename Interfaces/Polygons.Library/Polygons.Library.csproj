@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>2fa79753-afda-4549-89dd-97b08f7ebc42</ProjectGuid>
+    <ProjectGuid>{4B77CA3A-19BD-4F2D-89C4-AD049A1ECD1D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Polygons.Library</RootNamespace>
