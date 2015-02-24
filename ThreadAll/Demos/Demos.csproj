@@ -95,6 +95,9 @@
     <Compile Include="src\Objective_1\1.2-Manage_Multithreading\Example_1_35.cs" />
     <Compile Include="src\Objective_1\1.2-Manage_Multithreading\Example_1_36.cs" />
     <Compile Include="src\Objective_1\1.2-Manage_Multithreading\Example_1_37.cs" />
+    <Compile Include="src\Objective_1\1.2-Manage_Multithreading\Example_1_38.cs" />
+    <Compile Include="src\Objective_1\1.2-Manage_Multithreading\Example_1_39.cs" />
+    <Compile Include="src\Objective_1\1.2-Manage_Multithreading\Example_1_40.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

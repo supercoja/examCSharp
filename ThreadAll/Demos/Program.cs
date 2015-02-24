@@ -1,6 +1,4 @@
-﻿using System;
-using System.Threading;
-using System.Threading.Tasks;
+﻿using System.Threading;
 
 namespace Demos
 {
@@ -8,28 +6,17 @@ namespace Demos
     {
         public static void Main(string[] args)
         {
-            var lockA = new object();
-            var lockB = new object();
-
-            var up = Task.Run(() =>
-                {
-                    lock (lockA)
-                    {
-                        Thread.Sleep(1000);
-                        lock (lockB)
-                        {
-                            Console.WriteLine("Locked A and B");
-                        }
-                    }
-                });
-            lock (lockB)
+            object gate = new object();
+            bool __lockTaken = false;
+            try
             {
-                lock (lockA)
-                {
-                    Console.WriteLine("Locked A and B");
-                }
+                Monitor.Enter(gate, ref __lockTaken);
             }
-            up.Wait();
+            finally
+            {
+                if (__lockTaken)
+                    Monitor.Exit(gate);
+            }
         }
     }
 }
