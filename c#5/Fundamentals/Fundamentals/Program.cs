@@ -4,8 +4,21 @@ namespace Fundamentals
 {
     class Program
     {
+        private static void setName(GradeBook grade2)
+        {
+            grade2 = new GradeBook();
+            grade2.Name = "The  GradeBook";
+        }
+
         static void Main(string[] args)
         {
+
+            var grade1 = new GradeBook();
+            var grade2 = grade1;
+
+            setName(grade1);
+            Console.WriteLine(grade2.Name);
+
             IGradeTracker gradeBook = CreateGradeBook();
             gradeBook.AddGrade(91f);
             gradeBook.AddGrade(89.1f);
